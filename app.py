@@ -41,5 +41,8 @@ def ci(p,r,t):
 final = ci(p,r,t)
 final = locale.currency(final,grouping=True)
 
-st.write(f"Final amount is: {final}")
+inv = p*t
+
+st.write(f"Invested amount : {inv}")
+st.write(f"Final amount : {final}")
 
